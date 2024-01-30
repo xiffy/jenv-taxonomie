@@ -2,26 +2,9 @@
 <xsd:schema targetNamespace="https://www.nltaxonomie.nl/jenv/2025-01-01/bw2" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:bw2="https://www.nltaxonomie.nl/jenv/2025-01-01/bw2" xmlns:enum2="http://xbrl.org/2020/extensible-enumerations-2.0" xmlns:dtr="http://www.xbrl.org/dtr/type/2022-03-31" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
   <xsd:annotation>
     <xsd:appinfo>
-      <link:linkbaseRef xlink:type="simple" xlink:href="bw2-titel9_cor-def.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
       <link:linkbaseRef xlink:type="simple" xlink:href="bw2-titel9_cor-lab-en.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
       <link:linkbaseRef xlink:type="simple" xlink:href="bw2-titel9_cor-lab-nl.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
       <link:linkbaseRef xlink:type="simple" xlink:href="bw2-titel9_cor-ref.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
-      <link:roleType roleURI="https://www.nltaxonomie.nl/jenv/2025-01-01/bw2/basis-of-preparation-ee" id="bw2-titel9_BasisOfPreparationEE">
-        <link:definition>Basis of Preparation EE</link:definition>
-        <link:usedOn>link:definitionLink</link:usedOn>
-      </link:roleType>
-      <link:roleType roleURI="https://www.nltaxonomie.nl/jenv/2025-01-01/bw2/director-ee" id="bw2-titel9_DirectorEE">
-        <link:definition>Director EE</link:definition>
-        <link:usedOn>link:definitionLink</link:usedOn>
-      </link:roleType>
-      <link:roleType roleURI="https://www.nltaxonomie.nl/jenv/2025-01-01/bw2/legal-form-ee" id="bw2-titel9_LegalFormEE">
-        <link:definition>Legal Form EE</link:definition>
-        <link:usedOn>link:definitionLink</link:usedOn>
-      </link:roleType>
-      <link:roleType roleURI="https://www.nltaxonomie.nl/jenv/2025-01-01/bw2/profit-appropriation-ee" id="bw2-titel9_ProfitAppropriationEE">
-        <link:definition>Profit Appropriation EE</link:definition>
-        <link:usedOn>link:definitionLink</link:usedOn>
-      </link:roleType>
     </xsd:appinfo>
   </xsd:annotation>
   <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
@@ -1873,7 +1856,7 @@
   <xsd:element name="StatutoryReservesMember" id="bw2-titel9_StatutoryReservesMember" type="dtr:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="SubordinatedLiabilitiesMember" id="bw2-titel9_SubordinatedLiabilitiesMember" type="dtr:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="SubordinatedLiabilitiesNoncurrentMember" id="bw2-titel9_SubordinatedLiabilitiesNoncurrentMember" type="dtr:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="SupervisoryDirectorsFormerSupervisoryDirectorsMember" id="bw2-titel9_SupervisoryDirectorsFormerSupervisoryDirectorsMember" type="dtr:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="SupervisoryDirectorsFormerSupervisoryDirectorsMember" id="bw2-titel9_SupervisoryDirectorsFormerSupedrvisoryDirectorsMember" type="dtr:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="SupervisoryDirectorsMember" id="bw2-titel9_SupervisoryDirectorsMember" type="dtr:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="TangibleAssetsOtherMember" id="bw2-titel9_TangibleAssetsOtherMember" type="dtr:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="TaxesSocialSecurityContributionsPayableMember" id="bw2-titel9_TaxesSocialSecurityContributionsPayableMember" type="dtr:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
@@ -1910,30 +1893,7 @@
   <xsd:element name="LifeInsuranceAxis" id="bw2-titel9_LifeInsuranceAxis" type="xbrli:stringItemType" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="DirectorSignedStatus" id="bw2-titel9_DirectorSignedStatus" type="xbrli:booleanItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="DocumentAdoptionStatus" id="bw2-titel9_DocumentAdoptionStatus" type="xbrli:booleanItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="BalanceSheetBeforeAfterAppropriationResults" id="bw2-titel9_BalanceSheetBeforeAfterAppropriationResults" type="enum2:enumerationItemType" enum2:domain="bw2:ProfitAppropriationDomain" substitutionGroup="xbrli:item" enum2:headUsable="false" enum2:linkrole="https://www.nltaxonomie.nl/jenv/2025-01-01/bw2/profit-appropriation-ee" abstract="false" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="BasisOfPreparation" id="bw2-titel9_BasisOfPreparation" type="enum2:enumerationItemType" enum2:domain="bw2:BasisOfPreparationDomain" substitutionGroup="xbrli:item" enum2:headUsable="false" enum2:linkrole="https://www.nltaxonomie.nl/jenv/2025-01-01/bw2/basis-of-preparation-ee" abstract="false" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="DirectorType" id="bw2-titel9_DirectorType" type="enum2:enumerationItemType" enum2:domain="bw2:DirectorDomain" substitutionGroup="xbrli:item" enum2:headUsable="false" enum2:linkrole="https://www.nltaxonomie.nl/jenv/2025-01-01/bw2/director-ee" abstract="false" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="LegalEntityLegalForm" id="bw2-titel9_LegalEntityLegalForm" type="enum2:enumerationItemType" enum2:domain="bw2:LegalFormDomain" substitutionGroup="xbrli:item" enum2:headUsable="false" enum2:linkrole="https://www.nltaxonomie.nl/jenv/2025-01-01/bw2/legal-form-ee" abstract="false" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="BasisOfPreparationDomain" id="bw2-titel9_BasisOfPreparationDomain" type="dtr:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="BasisOfPreparationCommercial" id="bw2-titel9_BasisOfPreparationCommercial" type="dtr:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="BasisOfPreparationFiscal" id="bw2-titel9_BasisOfPreparationFiscal" type="dtr:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="DirectorDomain" id="bw2-titel9_DirectorDomain" type="dtr:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="ManagingDirectorCurrent" id="bw2-titel9_ManagingDirectorCurrent" type="dtr:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="ManagingDirectorFormer" id="bw2-titel9_ManagingDirectorFormer" type="dtr:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="SupervisoryDirectorCurrent" id="bw2-titel9_SupervisoryDirectorCurrent" type="dtr:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="SupervisoryDirectorFormer" id="bw2-titel9_SupervisoryDirectorFormer" type="dtr:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="LegalFormDomain" id="bw2-titel9_LegalFormDomain" type="dtr:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="PrivateLimitedLiabilityCompany" id="bw2-titel9_PrivateLimitedLiabilityCompany" type="dtr:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="LimitedPartnership" id="bw2-titel9_LimitedPartnership" type="dtr:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="Cooperative" id="bw2-titel9_Cooperative" type="dtr:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="PublicLimitedLiabilityCompany" id="bw2-titel9_PublicLimitedLiabilityCompany" type="dtr:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="MutualInsuranceCompany" id="bw2-titel9_MutualInsuranceCompany" type="dtr:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="Foundation" id="bw2-titel9_Foundation" type="dtr:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="GeneralPartnership" id="bw2-titel9_GeneralPartnership" type="dtr:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="Association" id="bw2-titel9_Association" type="dtr:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="ProfitAppropriationDomain" id="bw2-titel9_ProfitAppropriationDomain" type="dtr:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="ProfitAppropriationBefore" id="bw2-titel9_ProfitAppropriationBefore" type="dtr:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="ProfitAppropriationAfter" id="bw2-titel9_ProfitAppropriationAfter" type="dtr:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="BalanceSheetBeforeAppropriationResults" id="bw2-titel9_BalanceSheetBeforeAppropriationResults" type="xbrli:booleanItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="DerivativesAxis" id="bw2-titel9_DerivativesAxis" type="xbrli:stringItemType" xbrldt:typedDomainRef="#bw2-titel9_DerivativeFinancialInstrumentTypedMember" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="FinancialInstrumentsCurrentValueAxis" id="bw2-titel9_FinancialInstrumentsCurrentValueAxis" type="xbrli:stringItemType" xbrldt:typedDomainRef="#bw2-titel9_FinancialInstrumentsCurrentValueTypedMember" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="FinancialInstrumentsHigherValueThanFairValueAxis" id="bw2-titel9_FinancialInstrumentsHigherValueThanFairValueAxis" type="xbrli:stringItemType" xbrldt:typedDomainRef="#bw2-titel9_FinancialInstrumentsHigherValueThanFairValueTypedMember" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="true" xbrli:periodType="duration"/>
@@ -1992,4 +1952,5 @@
   <xsd:element name="ShareCapitalTypedMember" id="bw2-titel9_ShareCapitalTypedMember" type="xsd:string" abstract="false" nillable="true"/>
   <xsd:element name="SupervisoryDirectorTypedMember" id="bw2-titel9_SupervisoryDirectorTypedMember" type="xsd:string" abstract="false" nillable="true"/>
   <xsd:element name="CategoryEmployeesManagerialPositionsTypedMember" id="bw2-titel9_CategoryEmployeesManagerialPositionsTypedMember" type="xsd:string" abstract="false" nillable="true"/>
+  <xsd:element name="LegalEntityLegalForm" id="bw2-titel9_LegalEntityLegalForm" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
 </xsd:schema>

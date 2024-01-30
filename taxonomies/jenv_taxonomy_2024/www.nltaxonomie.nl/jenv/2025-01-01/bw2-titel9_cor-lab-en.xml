@@ -415,12 +415,9 @@
     <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_AverageNumberEmployees_loc" xlink:to="bw2-titel9_AverageNumberEmployees_terseLabel_en"/>
     <link:label xlink:type="resource" xlink:label="bw2-titel9_AverageNumberEmployees_totalLabel_en" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="bw2-titel9_AverageNumberEmployees_totalLabel_en">Total of average number of employees over the period</link:label>
     <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_AverageNumberEmployees_loc" xlink:to="bw2-titel9_AverageNumberEmployees_totalLabel_en"/>
-    <link:loc xlink:type="locator" xlink:href="bw2-titel9_cor.xsd#bw2-titel9_BalanceSheetBeforeAfterAppropriationResults" xlink:label="bw2-titel9_BalanceSheetBeforeAfterAppropriationResults_loc"/>
-    <link:label xlink:type="resource" xlink:label="bw2-titel9_BalanceSheetBeforeAfterAppropriationResults_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="bw2-titel9_BalanceSheetBeforeAfterAppropriationResults_label_en">Balance sheet before or after appropriation of results</link:label>
-    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_BalanceSheetBeforeAfterAppropriationResults_loc" xlink:to="bw2-titel9_BalanceSheetBeforeAfterAppropriationResults_label_en"/>
-    <link:loc xlink:type="locator" xlink:href="bw2-titel9_cor.xsd#bw2-titel9_BasisOfPreparation" xlink:label="bw2-titel9_BasisOfPreparation_loc"/>
-    <link:label xlink:type="resource" xlink:label="bw2-titel9_BasisOfPreparation_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="bw2-titel9_BasisOfPreparation_label_en">Basis of preparation</link:label>
-    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_BasisOfPreparation_loc" xlink:to="bw2-titel9_BasisOfPreparation_label_en"/>
+    <link:loc xlink:type="locator" xlink:href="bw2-titel9_cor.xsd#bw2-titel9_BalanceSheetBeforeAppropriationResults" xlink:label="bw2-titel9_BalanceSheetBeforeAppropriationResults_loc"/>
+    <link:label xlink:type="resource" xlink:label="bw2-titel9_BalanceSheetBeforeAppropriationResults_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="bw2-titel9_BalanceSheetBeforeAppropriationResults_label_en">Balance sheet before or after appropriation of results</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_BalanceSheetBeforeAppropriationResults_loc" xlink:to="bw2-titel9_BalanceSheetBeforeAppropriationResults_label_en"/>
     <link:loc xlink:type="locator" xlink:href="bw2-titel9_cor.xsd#bw2-titel9_BenefitsDisclosure" xlink:label="bw2-titel9_BenefitsDisclosure_loc"/>
     <link:label xlink:type="resource" xlink:label="bw2-titel9_BenefitsDisclosure_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="bw2-titel9_BenefitsDisclosure_label_en">Disclosure of benefits</link:label>
     <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_BenefitsDisclosure_loc" xlink:to="bw2-titel9_BenefitsDisclosure_label_en"/>
@@ -2078,9 +2075,6 @@
     <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_DirectorSignedStatus_loc" xlink:to="bw2-titel9_DirectorSignedStatus_label_en"/>
     <link:label xlink:type="resource" xlink:label="bw2-titel9_DirectorSignedStatus_terseLabel_en" xlink:role="http://www.xbrl.org/2003/role/terseLabel" xml:lang="en" id="bw2-titel9_DirectorSignedStatus_terseLabel_en">Signed (Y/N)</link:label>
     <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_DirectorSignedStatus_loc" xlink:to="bw2-titel9_DirectorSignedStatus_terseLabel_en"/>
-    <link:loc xlink:type="locator" xlink:href="bw2-titel9_cor.xsd#bw2-titel9_DirectorType" xlink:label="bw2-titel9_DirectorType_loc"/>
-    <link:label xlink:type="resource" xlink:label="bw2-titel9_DirectorType_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="bw2-titel9_DirectorType_label_en">Type of director</link:label>
-    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_DirectorType_loc" xlink:to="bw2-titel9_DirectorType_label_en"/>
     <link:loc xlink:type="locator" xlink:href="bw2-titel9_cor.xsd#bw2-titel9_Discounts" xlink:label="bw2-titel9_Discounts_loc"/>
     <link:label xlink:type="resource" xlink:label="bw2-titel9_Discounts_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="bw2-titel9_Discounts_label_en">Discounts</link:label>
     <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_Discounts_loc" xlink:to="bw2-titel9_Discounts_label_en"/>
@@ -8251,12 +8245,6 @@
     <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_SubordinatedLiabilitiesNoncurrentMember_loc" xlink:to="bw2-titel9_SubordinatedLiabilitiesNoncurrentMember_label_en"/>
     <link:label xlink:type="resource" xlink:label="bw2-titel9_SubordinatedLiabilitiesNoncurrentMember_terseLabel_en" xlink:role="http://www.xbrl.org/2003/role/terseLabel" xml:lang="en" id="bw2-titel9_SubordinatedLiabilitiesNoncurrentMember_terseLabel_en">Subordinated liabilities</link:label>
     <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_SubordinatedLiabilitiesNoncurrentMember_loc" xlink:to="bw2-titel9_SubordinatedLiabilitiesNoncurrentMember_terseLabel_en"/>
-    <link:loc xlink:type="locator" xlink:href="bw2-titel9_cor.xsd#bw2-titel9_SupervisoryDirectorsFormerSupervisoryDirectorsMember" xlink:label="bw2-titel9_SupervisoryDirectorsFormerSupervisoryDirectorsMember_loc"/>
-    <link:label xlink:type="resource" xlink:label="bw2-titel9_SupervisoryDirectorsFormerSupervisoryDirectorsMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="bw2-titel9_SupervisoryDirectorsFormerSupervisoryDirectorsMember_label_en">Supervisory directors and former supervisory directors</link:label>
-    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_SupervisoryDirectorsFormerSupervisoryDirectorsMember_loc" xlink:to="bw2-titel9_SupervisoryDirectorsFormerSupervisoryDirectorsMember_label_en"/>
-    <link:loc xlink:type="locator" xlink:href="bw2-titel9_cor.xsd#bw2-titel9_SupervisoryDirectorsMember" xlink:label="bw2-titel9_SupervisoryDirectorsMember_loc"/>
-    <link:label xlink:type="resource" xlink:label="bw2-titel9_SupervisoryDirectorsMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="bw2-titel9_SupervisoryDirectorsMember_label_en">Supervisory directors</link:label>
-    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_SupervisoryDirectorsMember_loc" xlink:to="bw2-titel9_SupervisoryDirectorsMember_label_en"/>
     <link:loc xlink:type="locator" xlink:href="bw2-titel9_cor.xsd#bw2-titel9_TangibleAssetsOtherMember" xlink:label="bw2-titel9_TangibleAssetsOtherMember_loc"/>
     <link:label xlink:type="resource" xlink:label="bw2-titel9_TangibleAssetsOtherMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="bw2-titel9_TangibleAssetsOtherMember_label_en">Other tangible assets</link:label>
     <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_TangibleAssetsOtherMember_loc" xlink:to="bw2-titel9_TangibleAssetsOtherMember_label_en"/>
@@ -8318,66 +8306,6 @@
     <link:loc xlink:type="locator" xlink:href="bw2-titel9_cor.xsd#bw2-titel9_WorkInProgressMember" xlink:label="bw2-titel9_WorkInProgressMember_loc"/>
     <link:label xlink:type="resource" xlink:label="bw2-titel9_WorkInProgressMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="bw2-titel9_WorkInProgressMember_label_en">Work in progress</link:label>
     <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_WorkInProgressMember_loc" xlink:to="bw2-titel9_WorkInProgressMember_label_en"/>
-    <link:loc xlink:type="locator" xlink:href="bw2-titel9_cor.xsd#bw2-titel9_BasisOfPreparationDomain" xlink:label="bw2-titel9_BasisOfPreparationDomain_loc"/>
-    <link:label xlink:type="resource" xlink:label="bw2-titel9_BasisOfPreparationDomain_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="bw2-titel9_BasisOfPreparationDomain_label_en">Basis of preparation (domain)</link:label>
-    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_BasisOfPreparationDomain_loc" xlink:to="bw2-titel9_BasisOfPreparationDomain_label_en"/>
-    <link:loc xlink:type="locator" xlink:href="bw2-titel9_cor.xsd#bw2-titel9_BasisOfPreparationCommercial" xlink:label="bw2-titel9_BasisOfPreparationCommercial_loc"/>
-    <link:label xlink:type="resource" xlink:label="bw2-titel9_BasisOfPreparationCommercial_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="bw2-titel9_BasisOfPreparationCommercial_label_en">Commercial</link:label>
-    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_BasisOfPreparationCommercial_loc" xlink:to="bw2-titel9_BasisOfPreparationCommercial_label_en"/>
-    <link:loc xlink:type="locator" xlink:href="bw2-titel9_cor.xsd#bw2-titel9_BasisOfPreparationFiscal" xlink:label="bw2-titel9_BasisOfPreparationFiscal_loc"/>
-    <link:label xlink:type="resource" xlink:label="bw2-titel9_BasisOfPreparationFiscal_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="bw2-titel9_BasisOfPreparationFiscal_label_en">Fiscal</link:label>
-    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_BasisOfPreparationFiscal_loc" xlink:to="bw2-titel9_BasisOfPreparationFiscal_label_en"/>
-    <link:loc xlink:type="locator" xlink:href="bw2-titel9_cor.xsd#bw2-titel9_DirectorDomain" xlink:label="bw2-titel9_DirectorDomain_loc"/>
-    <link:label xlink:type="resource" xlink:label="bw2-titel9_DirectorDomain_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="bw2-titel9_DirectorDomain_label_en">Director (domain)</link:label>
-    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_DirectorDomain_loc" xlink:to="bw2-titel9_DirectorDomain_label_en"/>
-    <link:loc xlink:type="locator" xlink:href="bw2-titel9_cor.xsd#bw2-titel9_ManagingDirectorCurrent" xlink:label="bw2-titel9_ManagingDirectorCurrent_loc"/>
-    <link:label xlink:type="resource" xlink:label="bw2-titel9_ManagingDirectorCurrent_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="bw2-titel9_ManagingDirectorCurrent_label_en">Current managing director</link:label>
-    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_ManagingDirectorCurrent_loc" xlink:to="bw2-titel9_ManagingDirectorCurrent_label_en"/>
-    <link:loc xlink:type="locator" xlink:href="bw2-titel9_cor.xsd#bw2-titel9_ManagingDirectorFormer" xlink:label="bw2-titel9_ManagingDirectorFormer_loc"/>
-    <link:label xlink:type="resource" xlink:label="bw2-titel9_ManagingDirectorFormer_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="bw2-titel9_ManagingDirectorFormer_label_en">Managing director (former)</link:label>
-    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_ManagingDirectorFormer_loc" xlink:to="bw2-titel9_ManagingDirectorFormer_label_en"/>
-    <link:loc xlink:type="locator" xlink:href="bw2-titel9_cor.xsd#bw2-titel9_SupervisoryDirectorCurrent" xlink:label="bw2-titel9_SupervisoryDirectorCurrent_loc"/>
-    <link:label xlink:type="resource" xlink:label="bw2-titel9_SupervisoryDirectorCurrent_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="bw2-titel9_SupervisoryDirectorCurrent_label_en">Current supervisory director</link:label>
-    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_SupervisoryDirectorCurrent_loc" xlink:to="bw2-titel9_SupervisoryDirectorCurrent_label_en"/>
-    <link:loc xlink:type="locator" xlink:href="bw2-titel9_cor.xsd#bw2-titel9_SupervisoryDirectorFormer" xlink:label="bw2-titel9_SupervisoryDirectorFormer_loc"/>
-    <link:label xlink:type="resource" xlink:label="bw2-titel9_SupervisoryDirectorFormer_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="bw2-titel9_SupervisoryDirectorFormer_label_en">Supervisory director (former)</link:label>
-    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_SupervisoryDirectorFormer_loc" xlink:to="bw2-titel9_SupervisoryDirectorFormer_label_en"/>
-    <link:loc xlink:type="locator" xlink:href="bw2-titel9_cor.xsd#bw2-titel9_LegalFormDomain" xlink:label="bw2-titel9_LegalFormDomain_loc"/>
-    <link:label xlink:type="resource" xlink:label="bw2-titel9_LegalFormDomain_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="bw2-titel9_LegalFormDomain_label_en">Legal form (domain)</link:label>
-    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_LegalFormDomain_loc" xlink:to="bw2-titel9_LegalFormDomain_label_en"/>
-    <link:loc xlink:type="locator" xlink:href="bw2-titel9_cor.xsd#bw2-titel9_PrivateLimitedLiabilityCompany" xlink:label="bw2-titel9_PrivateLimitedLiabilityCompany_loc"/>
-    <link:label xlink:type="resource" xlink:label="bw2-titel9_PrivateLimitedLiabilityCompany_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="bw2-titel9_PrivateLimitedLiabilityCompany_label_en">Private limited liability company</link:label>
-    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_PrivateLimitedLiabilityCompany_loc" xlink:to="bw2-titel9_PrivateLimitedLiabilityCompany_label_en"/>
-    <link:loc xlink:type="locator" xlink:href="bw2-titel9_cor.xsd#bw2-titel9_LimitedPartnership" xlink:label="bw2-titel9_LimitedPartnership_loc"/>
-    <link:label xlink:type="resource" xlink:label="bw2-titel9_LimitedPartnership_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="bw2-titel9_LimitedPartnership_label_en">Limited partnership</link:label>
-    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_LimitedPartnership_loc" xlink:to="bw2-titel9_LimitedPartnership_label_en"/>
-    <link:loc xlink:type="locator" xlink:href="bw2-titel9_cor.xsd#bw2-titel9_Cooperative" xlink:label="bw2-titel9_Cooperative_loc"/>
-    <link:label xlink:type="resource" xlink:label="bw2-titel9_Cooperative_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="bw2-titel9_Cooperative_label_en">Cooperative</link:label>
-    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_Cooperative_loc" xlink:to="bw2-titel9_Cooperative_label_en"/>
-    <link:loc xlink:type="locator" xlink:href="bw2-titel9_cor.xsd#bw2-titel9_PublicLimitedLiabilityCompany" xlink:label="bw2-titel9_PublicLimitedLiabilityCompany_loc"/>
-    <link:label xlink:type="resource" xlink:label="bw2-titel9_PublicLimitedLiabilityCompany_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="bw2-titel9_PublicLimitedLiabilityCompany_label_en">Public limited liability company</link:label>
-    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_PublicLimitedLiabilityCompany_loc" xlink:to="bw2-titel9_PublicLimitedLiabilityCompany_label_en"/>
-    <link:loc xlink:type="locator" xlink:href="bw2-titel9_cor.xsd#bw2-titel9_MutualInsuranceCompany" xlink:label="bw2-titel9_MutualInsuranceCompany_loc"/>
-    <link:label xlink:type="resource" xlink:label="bw2-titel9_MutualInsuranceCompany_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="bw2-titel9_MutualInsuranceCompany_label_en">Mutual insurance company</link:label>
-    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_MutualInsuranceCompany_loc" xlink:to="bw2-titel9_MutualInsuranceCompany_label_en"/>
-    <link:loc xlink:type="locator" xlink:href="bw2-titel9_cor.xsd#bw2-titel9_Foundation" xlink:label="bw2-titel9_Foundation_loc"/>
-    <link:label xlink:type="resource" xlink:label="bw2-titel9_Foundation_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="bw2-titel9_Foundation_label_en">Foundation</link:label>
-    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_Foundation_loc" xlink:to="bw2-titel9_Foundation_label_en"/>
-    <link:loc xlink:type="locator" xlink:href="bw2-titel9_cor.xsd#bw2-titel9_GeneralPartnership" xlink:label="bw2-titel9_GeneralPartnership_loc"/>
-    <link:label xlink:type="resource" xlink:label="bw2-titel9_GeneralPartnership_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="bw2-titel9_GeneralPartnership_label_en">General partnership</link:label>
-    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_GeneralPartnership_loc" xlink:to="bw2-titel9_GeneralPartnership_label_en"/>
-    <link:loc xlink:type="locator" xlink:href="bw2-titel9_cor.xsd#bw2-titel9_Association" xlink:label="bw2-titel9_Association_loc"/>
-    <link:label xlink:type="resource" xlink:label="bw2-titel9_Association_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="bw2-titel9_Association_label_en">Association</link:label>
-    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_Association_loc" xlink:to="bw2-titel9_Association_label_en"/>
-    <link:loc xlink:type="locator" xlink:href="bw2-titel9_cor.xsd#bw2-titel9_ProfitAppropriationDomain" xlink:label="bw2-titel9_ProfitAppropriationDomain_loc"/>
-    <link:label xlink:type="resource" xlink:label="bw2-titel9_ProfitAppropriationDomain_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="bw2-titel9_ProfitAppropriationDomain_label_en">Profit appropriation (domain)</link:label>
-    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_ProfitAppropriationDomain_loc" xlink:to="bw2-titel9_ProfitAppropriationDomain_label_en"/>
-    <link:loc xlink:type="locator" xlink:href="bw2-titel9_cor.xsd#bw2-titel9_ProfitAppropriationBefore" xlink:label="bw2-titel9_ProfitAppropriationBefore_loc"/>
-    <link:label xlink:type="resource" xlink:label="bw2-titel9_ProfitAppropriationBefore_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="bw2-titel9_ProfitAppropriationBefore_label_en">Before profit appropriation</link:label>
-    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_ProfitAppropriationBefore_loc" xlink:to="bw2-titel9_ProfitAppropriationBefore_label_en"/>
-    <link:loc xlink:type="locator" xlink:href="bw2-titel9_cor.xsd#bw2-titel9_ProfitAppropriationAfter" xlink:label="bw2-titel9_ProfitAppropriationAfter_loc"/>
-    <link:label xlink:type="resource" xlink:label="bw2-titel9_ProfitAppropriationAfter_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="bw2-titel9_ProfitAppropriationAfter_label_en">After profit appropriation</link:label>
-    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_ProfitAppropriationAfter_loc" xlink:to="bw2-titel9_ProfitAppropriationAfter_label_en"/>
     <link:loc xlink:type="locator" xlink:href="bw2-titel9_cor.xsd#bw2-titel9_LegalEntityName" xlink:label="bw2-titel9_LegalEntityName_loc"/>
     <link:label xlink:type="resource" xlink:label="bw2-titel9_LegalEntityName_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="bw2-titel9_LegalEntityName_label_en">Name of the legal entity</link:label>
     <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_LegalEntityName_loc" xlink:to="bw2-titel9_LegalEntityName_label_en"/>
@@ -8454,17 +8382,5 @@
     <link:loc xlink:type="locator" xlink:href="bw2-titel9_cor.xsd#bw2-titel9_SupervisoryDirectorTypedMember" xlink:label="bw2-titel9_SupervisoryDirectorTypedMember_loc"/>
     <label:label xlink:type="resource" xlink:label="bw2-titel9_SupervisoryDirectorTypedMember_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en" id="bw2-titel9_SupervisoryDirectorTypedMember_label_en">Supervisory director</label:label>
     <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="bw2-titel9_SupervisoryDirectorTypedMember_loc" xlink:to="bw2-titel9_SupervisoryDirectorTypedMember_label_en"/>
-    <link:loc xlink:type="locator" xlink:href="bw2-titel9_cor.xsd#bw2-titel9_BasisOfPreparationEE" xlink:label="bw2-titel9_BasisOfPreparationEE_loc"/>
-    <label:label xlink:type="resource" xlink:label="bw2-titel9_BasisOfPreparationEE_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en" id="bw2-titel9_BasisOfPreparationEE_label_en">Basis of preparation (EE)</label:label>
-    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="bw2-titel9_BasisOfPreparationEE_loc" xlink:to="bw2-titel9_BasisOfPreparationEE_label_en"/>
-    <link:loc xlink:type="locator" xlink:href="bw2-titel9_cor.xsd#bw2-titel9_DirectorEE" xlink:label="bw2-titel9_DirectorEE_loc"/>
-    <label:label xlink:type="resource" xlink:label="bw2-titel9_DirectorEE_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en" id="bw2-titel9_DirectorEE_label_en">Director (EE)</label:label>
-    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="bw2-titel9_DirectorEE_loc" xlink:to="bw2-titel9_DirectorEE_label_en"/>
-    <link:loc xlink:type="locator" xlink:href="bw2-titel9_cor.xsd#bw2-titel9_LegalFormEE" xlink:label="bw2-titel9_LegalFormEE_loc"/>
-    <label:label xlink:type="resource" xlink:label="bw2-titel9_LegalFormEE_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en" id="bw2-titel9_LegalFormEE_label_en">Legal form (EE)</label:label>
-    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="bw2-titel9_LegalFormEE_loc" xlink:to="bw2-titel9_LegalFormEE_label_en"/>
-    <link:loc xlink:type="locator" xlink:href="bw2-titel9_cor.xsd#bw2-titel9_ProfitAppropriationEE" xlink:label="bw2-titel9_ProfitAppropriationEE_loc"/>
-    <label:label xlink:type="resource" xlink:label="bw2-titel9_ProfitAppropriationEE_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en" id="bw2-titel9_ProfitAppropriationEE_label_en">Profit appropriation (EE)</label:label>
-    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="bw2-titel9_ProfitAppropriationEE_loc" xlink:to="bw2-titel9_ProfitAppropriationEE_label_en"/>
   </gen:link>
 </link:linkbase>

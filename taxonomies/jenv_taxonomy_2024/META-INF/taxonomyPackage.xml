@@ -14,5 +14,10 @@
 			<tp:description></tp:description>
 			<tp:entryPointDocument href="https://www.nltaxonomie.nl/jenv/2025-01-01/bw2-titel9_cor.xsd" />
 		</tp:entryPoint>
+    <tp:entryPoint>
+			<tp:name>JenV BW2 Entrypoint</tp:name>
+			<tp:description></tp:description>
+			<tp:entryPointDocument href="https://www.nltaxonomie.nl/jenv/2025-01-01/bw2-titel9_entrypoint.xsd" />
+		</tp:entryPoint>
 	</tp:entryPoints>
 </tp:taxonomyPackage>

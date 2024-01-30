@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema targetNamespace="https://www.nltaxonomie.nl/jenv/2025-01-01/bw2" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:bw2="https://www.nltaxonomie.nl/jenv/2025-01-01/bw2" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="bw2-titel9_entrypoint-pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="bw2-titel9_entrypoint-lab-en.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="bw2-titel9_entrypoint-lab-nl.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:roleType id="bw2-titel9_DecreeOnCurrentValue" roleURI="urn:bw2-titel9:linkrole:current-value-decree">
+        <link:definition>Besluit actuele waarde</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="bw2-titel9_DecreeOnAdditionalRegulationsForTheManagementReport" roleURI="urn:bw2-titel9:linkrole:decree-on-additional-regulations-for-the-management-report">
+        <link:definition>Vaststellingsbesluit nadere voorschriften inhoud bestuursverslag</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="bw2-titel9_DecreeOnArticle10TakeoverDirective" roleURI="urn:bw2-titel9:linkrole:decree-on-article-10-takeover-directive">
+        <link:definition>Besluit artikel 10 overnamerichtlijn</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="bw2-titel9_DecreeOnFinancialStatementsCreditInstitutions" roleURI="urn:bw2-titel9:linkrole:decree-on-financial-statements-credit-institutions">
+        <link:definition>Besluit jaarrekening banken</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="bw2-titel9_DecreeOnFinancialStatementsFormats" roleURI="urn:bw2-titel9:linkrole:decree-on-financial-statements-formats">
+        <link:definition>Besluit modellen jaarrekening</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="bw2-titel9_DecreeOnFinancialStatementsFormatsModelA" roleURI="urn:bw2-titel9:linkrole:decree-on-financial-statements-formats-model-a">
+        <link:definition>Besluit modellen jaarrekening - model A</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="bw2-titel9_DecreeOnFinancialStatementsFormatsModelB" roleURI="urn:bw2-titel9:linkrole:decree-on-financial-statements-formats-model-b">
+        <link:definition>Besluit modellen jaarrekening - model B</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="bw2-titel9_DecreeOnFinancialStatementsFormatsModelC" roleURI="urn:bw2-titel9:linkrole:decree-on-financial-statements-formats-model-c">
+        <link:definition>Besluit modellen jaarrekening - model C</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="bw2-titel9_DecreeOnFinancialStatementsFormatsModelD" roleURI="urn:bw2-titel9:linkrole:decree-on-financial-statements-formats-model-d">
+        <link:definition>Besluit modellen jaarrekening - model D</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="bw2-titel9_DecreeOnFinancialStatementsFormatsModelE" roleURI="urn:bw2-titel9:linkrole:decree-on-financial-statements-formats-model-e">
+        <link:definition>Besluit modellen jaarrekening - model E</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="bw2-titel9_DecreeOnFinancialStatementsFormatsModelF" roleURI="urn:bw2-titel9:linkrole:decree-on-financial-statements-formats-model-f">
+        <link:definition>Besluit modellen jaarrekening - model F</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="bw2-titel9_DecreeOnFinancialStatementsFormatsModelI" roleURI="urn:bw2-titel9:linkrole:decree-on-financial-statements-formats-model-i">
+        <link:definition>Besluit modellen jaarrekening - model I</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="bw2-titel9_DecreeOnFinancialStatementsFormatsModelJ" roleURI="urn:bw2-titel9:linkrole:decree-on-financial-statements-formats-model-j">
+        <link:definition>Besluit modellen jaarrekening - model J</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="bw2-titel9_DecreeOnFinancialStatementsFormatsModelK" roleURI="urn:bw2-titel9:linkrole:decree-on-financial-statements-formats-model-k">
+        <link:definition>Besluit modellen jaarrekening - model K</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="bw2-titel9_DecreeOnFinancialStatementsFormatsModelL" roleURI="urn:bw2-titel9:linkrole:decree-on-financial-statements-formats-model-l">
+        <link:definition>Besluit modellen jaarrekening - model L</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="bw2-titel9_DecreeOnFinancialStatementsFormatsModelM" roleURI="urn:bw2-titel9:linkrole:decree-on-financial-statements-formats-model-m">
+        <link:definition>Besluit modellen jaarrekening - model M</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="bw2-titel9_DecreeOnFinancialStatementsFormatsModelN" roleURI="urn:bw2-titel9:linkrole:decree-on-financial-statements-formats-model-n">
+        <link:definition>Besluit modellen jaarrekening - model N</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="bw2-titel9_DecreeOnFinancialStatementsFormatsModelO" roleURI="urn:bw2-titel9:linkrole:decree-on-financial-statements-formats-model-o">
+        <link:definition>Besluit modellen jaarrekening - model O</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="bw2-titel9_DecreeOnFinancialStatementsFormatsModelP" roleURI="urn:bw2-titel9:linkrole:decree-on-financial-statements-formats-model-p">
+        <link:definition>Besluit modellen jaarrekening - model P</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="bw2-titel9_DecreeOnFinancialStatementsFormatsModelQ" roleURI="urn:bw2-titel9:linkrole:decree-on-financial-statements-formats-model-q">
+        <link:definition>Besluit modellen jaarrekening - model Q</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="bw2-titel9_DecreeOnFinancialStatementsFormatsModelR" roleURI="urn:bw2-titel9:linkrole:decree-on-financial-statements-formats-model-r">
+        <link:definition>Besluit modellen jaarrekening - model R</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="bw2-titel9_DecreeOnFinancialStatementsFormatsModelS" roleURI="urn:bw2-titel9:linkrole:decree-on-financial-statements-formats-model-s">
+        <link:definition>Besluit modellen jaarrekening - model S</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="bw2-titel9_DecreeOnImplementationDisclosureRequirementsCapitalRequirementsDirective" roleURI="urn:bw2-titel9:linkrole:decree-on-implementation-disclosure-requirements-capital-requirements-directive">
+        <link:definition>Besluit uitvoering publicatieverplichtingen richtlijn kapitaalvereisten</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="bw2-titel9_DecreeOnUniformFiscalValuationPrinciples" roleURI="urn:bw2-titel9:linkrole:decree-on-uniform-fiscal-valuation-principles">
+        <link:definition>Besluit fiscale waarderingsgrondslagen</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="bw2-titel9_DutchCivilCodeBook2" roleURI="urn:bw2-titel9:linkrole:dutch-civil-code-book2">
+        <link:definition>Burgerlijk wetboek boek 2</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xsd:element abstract="true" id="bw2-titel9_AccruedIncomeTitle" name="AccruedIncomeTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article1Title" name="Article1Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article2Title" name="Article2Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article2aTitle" name="Article2aTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article3Title" name="Article3Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article3aTitle" name="Article3aTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article3bTitle" name="Article3bTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article3dTitle" name="Article3dTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article4Title" name="Article4Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article5Title" name="Article5Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article6Title" name="Article6Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article7Title" name="Article7Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article8Title" name="Article8Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article9Title" name="Article9Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article10Title" name="Article10Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article11Title" name="Article11Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article12Title" name="Article12Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article14Title" name="Article14Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article15Title" name="Article15Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article16Title" name="Article16Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article16aTitle" name="Article16aTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article16bTitle" name="Article16bTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article153Title" name="Article153Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article178Title" name="Article178Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article361Title" name="Article361Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article362Title" name="Article362Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article363Title" name="Article363Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article364Title" name="Article364Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article365Title" name="Article365Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article366Title" name="Article366Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article367Title" name="Article367Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article368Title" name="Article368Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article369Title" name="Article369Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article370Title" name="Article370Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article371Title" name="Article371Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article372Title" name="Article372Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article373Title" name="Article373Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article374Title" name="Article374Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article375Title" name="Article375Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article376Title" name="Article376Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article377Title" name="Article377Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article378Title" name="Article378Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article379Title" name="Article379Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article380Title" name="Article380Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article380aTitle" name="Article380aTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article380bTitle" name="Article380bTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article380cTitle" name="Article380cTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article380dTitle" name="Article380dTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article381Title" name="Article381Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article381aTitle" name="Article381aTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article381bTitle" name="Article381bTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article382Title" name="Article382Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article382aTitle" name="Article382aTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article383Title" name="Article383Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article383aTitle" name="Article383aTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article383cTitle" name="Article383cTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article383dTitle" name="Article383dTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article383eTitle" name="Article383eTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article384Title" name="Article384Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article386Title" name="Article386Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article387Title" name="Article387Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article388Title" name="Article388Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article389Title" name="Article389Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article390Title" name="Article390Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article391Title" name="Article391Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article392Title" name="Article392Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article392aTitle" name="Article392aTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article393Title" name="Article393Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article394Title" name="Article394Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article395Title" name="Article395Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article395aTitle" name="Article395aTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article396Title" name="Article396Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article397Title" name="Article397Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article401Title" name="Article401Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article402Title" name="Article402Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article405Title" name="Article405Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article408Title" name="Article408Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article410Title" name="Article410Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article411Title" name="Article411Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article413Title" name="Article413Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article414Title" name="Article414Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article420Title" name="Article420Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article421Title" name="Article421Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article424Title" name="Article424Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article429Title" name="Article429Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article430Title" name="Article430Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article432Title" name="Article432Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article433Title" name="Article433Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article434Title" name="Article434Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article435Title" name="Article435Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article436Title" name="Article436Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article437Title" name="Article437Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article438Title" name="Article438Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article439Title" name="Article439Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article440Title" name="Article440Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article440aTitle" name="Article440aTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article441Title" name="Article441Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article442Title" name="Article442Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Article446Title" name="Article446Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_AssetsOtherTitle" name="AssetsOtherTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_BW2AssetsCurrentTitle" name="BW2AssetsCurrentTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_BW2AssetsNoncurrentTitle" name="BW2AssetsNoncurrentTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_BW2AssetsTitle" name="BW2AssetsTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_BW2EquityAndLiabilitiesTitle" name="BW2EquityAndLiabilitiesTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_BW2EquityTitle" name="BW2EquityTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_BW2ExpensesTitle" name="BW2ExpensesTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_BW2FinancialAssetsMovementScheduleTitle" name="BW2FinancialAssetsMovementScheduleTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_BW2FinancialAssetsTitle" name="BW2FinancialAssetsTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_BW2IncomeTitle" name="BW2IncomeTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_BW2IntangibleAssetsTitle" name="BW2IntangibleAssetsTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_BW2InventoriesTitle" name="BW2InventoriesTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_BW2LiabilitiesCurrentTitle" name="BW2LiabilitiesCurrentTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_BW2LiabilitiesNoncurrentTitle" name="BW2LiabilitiesNoncurrentTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_BW2OperatingExpensesTitle" name="BW2OperatingExpensesTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_BW2PropertyPlantEquipmentLineItemsTitle" name="BW2PropertyPlantEquipmentLineItemsTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_BW2PropertyPlantEquipmentTitle" name="BW2PropertyPlantEquipmentTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_BW2ProvisionsTitle" name="BW2ProvisionsTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_BW2ReceivablesTitle" name="BW2ReceivablesTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_BenefitsForOwnAccountTitle" name="BenefitsForOwnAccountTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_BenefitsTitle" name="BenefitsTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_BondsOtherFixedIncomeSecuritiesTitle" name="BondsOtherFixedIncomeSecuritiesTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_ChangeInOtherTechnicalProvisionsForOwnAccountTitle" name="ChangeInOtherTechnicalProvisionsForOwnAccountTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_ChangeInProvisionDamagesPayableTitle" name="ChangeInProvisionDamagesPayableTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_ChangeInProvisionForBenefitsPayableTitle" name="ChangeInProvisionForBenefitsPayableTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_ChangeInProvisionForLifeInsuranceTitle" name="ChangeInProvisionForLifeInsuranceTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_ChangeInTechnicalProvisionsForUnearnedPremiumsAndUnexpiredRisksTitle" name="ChangeInTechnicalProvisionsForUnearnedPremiumsAndUnexpiredRisksTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_ContingentLiabilitiesTitle" name="ContingentLiabilitiesTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_DamagesForOwnAccountTitle" name="DamagesForOwnAccountTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_DamagesTitle" name="DamagesTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_DebtSecuritiesTitle" name="DebtSecuritiesTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_DecreeOnAdditionalRegulationsForTheManagementReportTitle" name="DecreeOnAdditionalRegulationsForTheManagementReportTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_DecreeOnArticle10TakeoverDirectiveTitle" name="DecreeOnArticle10TakeoverDirectiveTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_DecreeOnCurrentValueTitle" name="DecreeOnCurrentValueTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_DecreeOnFinancialStatementsCreditInstitutionsTitle" name="DecreeOnFinancialStatementsCreditInstitutionsTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_DecreeOnFinancialStatementsFormatsTitle" name="DecreeOnFinancialStatementsFormatsTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_DecreeOnImplementationDisclosureRequirementsCapitalRequirementsDirectiveTitle" name="DecreeOnImplementationDisclosureRequirementsCapitalRequirementsDirectiveTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_DecreeOnUniformFiscalValuationPrinciplesTitle" name="DecreeOnUniformFiscalValuationPrinciplesTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_DutchCivilCodeBook2Title9" name="DutchCivilCodeBook2Title9" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_EarnedPremiumsForOwnAccountDamageInsuranceTitle" name="EarnedPremiumsForOwnAccountDamageInsuranceTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_EarnedPremiumsForOwnAccountLifeInsuranceTitle" name="EarnedPremiumsForOwnAccountLifeInsuranceTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_EmployeeBenefitsAndOtherAdministrativeExpensesTitle" name="EmployeeBenefitsAndOtherAdministrativeExpensesTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_EmployeeBenefitsTitle" name="EmployeeBenefitsTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_EqualisationProvisionTitle" name="EqualisationProvisionTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_EquityClassesTitle" name="EquityClassesTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_EquityLineItemsTitle" name="EquityLineItemsTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_EquityMovementTitle" name="EquityMovementTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_FinancialAssetsClassesTitle" name="FinancialAssetsClassesTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_FinancialAssetsLineItemsTitle" name="FinancialAssetsLineItemsTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_FinancialInvestmentsOtherTitle" name="FinancialInvestmentsOtherTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_IncomeFromInvestmentsTitle" name="IncomeFromInvestmentsTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_IncomeFromOtherInvestmentsTitle" name="IncomeFromOtherInvestmentsTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_IncomeFromSecuritiesAndInvestmentsInParticipatingInterestsTitle" name="IncomeFromSecuritiesAndInvestmentsInParticipatingInterestsTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_IntangibleAssetsClassesTitle" name="IntangibleAssetsClassesTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_IntangibleAssetsLineItemsTitle" name="IntangibleAssetsLineItemsTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_IntangibleAssetsMovementTitle" name="IntangibleAssetsMovementTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_InterestIncomeRelatedIncomeTitle" name="InterestIncomeRelatedIncomeTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_InvestmentExpensesTitle" name="InvestmentExpensesTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_InvestmentsInGroupCompaniesAndParticipatingInterestsTitle" name="InvestmentsInGroupCompaniesAndParticipatingInterestsTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_InvestmentsInLandAndBuildingsTitle" name="InvestmentsInLandAndBuildingsTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_InvestmentsInParticipatingInterestsInGroupCompaniesTitle" name="InvestmentsInParticipatingInterestsInGroupCompaniesTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_InvestmentsInParticipatingInterestsOtherTitle" name="InvestmentsInParticipatingInterestsOtherTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_InvestmentsTitle" name="InvestmentsTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_IrrevocableCommitmentsTitle" name="IrrevocableCommitmentsTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_LegalStatutoryReservesTitle" name="LegalStatutoryReservesTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_LiabilitiesRelatingToSecuritiesTransactionsCurrentTitle" name="LiabilitiesRelatingToSecuritiesTransactionsCurrentTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_LiabilitiesRelatingToSecuritiesTransactionsNoncurrentTitle" name="LiabilitiesRelatingToSecuritiesTransactionsNoncurrentTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_LiabilitiesTitle" name="LiabilitiesTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_ModelATitle" name="ModelATitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_ModelBTitle" name="ModelBTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_ModelCTitle" name="ModelCTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_ModelDTitle" name="ModelDTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_ModelETitle" name="ModelETitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_ModelFTitle" name="ModelFTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_ModelITitle" name="ModelITitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_ModelJTitle" name="ModelJTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_ModelKTitle" name="ModelKTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_ModelLTitle" name="ModelLTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_ModelMTitle" name="ModelMTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_ModelNTitle" name="ModelNTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_ModelOTitle" name="ModelOTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_ModelPTitle" name="ModelPTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_ModelQTitle" name="ModelQTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_ModelRTitle" name="ModelRTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_ModelSTitle" name="ModelSTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_NonTechnicalAccountTitle" name="NonTechnicalAccountTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_PayablesCreditInstitutionsTitle" name="PayablesCreditInstitutionsTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_PayablesCustomersDepositsTitle" name="PayablesCustomersDepositsTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_PayablesCustomersOtherTitle" name="PayablesCustomersOtherTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_PayablesCustomersTitle" name="PayablesCustomersTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_PremiumsTitle" name="PremiumsTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_PropertyPlantEquipmentClassesTitle" name="PropertyPlantEquipmentClassesTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_PropertyPlantEquipmentMovementTitle" name="PropertyPlantEquipmentMovementTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_RealisedChangesInValueOfInvestmentsTitle" name="RealisedChangesInValueOfInvestmentsTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_ReceivablesFromCreditInstitutionsTitle" name="ReceivablesFromCreditInstitutionsTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_ReceivablesOfDirectInsuranceTitle" name="ReceivablesOfDirectInsuranceTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_ReceivablesRelatingToSecuritiesTransactionsTitle" name="ReceivablesRelatingToSecuritiesTransactionsTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Section2Title" name="Section2Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Section3Title" name="Section3Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Section4Title" name="Section4Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Section5Title" name="Section5Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Section6Title" name="Section6Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Section7Title" name="Section7Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Section8Title" name="Section8Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Section8aTitle" name="Section8aTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Section9Title" name="Section9Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Section10Title" name="Section10Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Section11Title" name="Section11Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Section12Title" name="Section12Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Section13Title" name="Section13Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Section14Title" name="Section14Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_Section15Title" name="Section15Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_ShareCapitalClassesTitle" name="ShareCapitalClassesTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_ShareCapitalLineItemsTitle" name="ShareCapitalLineItemsTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_ShareCapitalMovementTitle" name="ShareCapitalMovementTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_TechnicalAccountDamageInsuranceTitle" name="TechnicalAccountDamageInsuranceTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_TechnicalAccountLifeInsuranceTitle" name="TechnicalAccountLifeInsuranceTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_TechnicalProvisionsForDamagesOrBenefitsPayableTitle" name="TechnicalProvisionsForDamagesOrBenefitsPayableTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_TechnicalProvisionsForInsuranceWhereInvestmentsAreForRiskOfPolicyHoldersAndAnnualLifeFundsTitle" name="TechnicalProvisionsForInsuranceWhereInvestmentsAreForRiskOfPolicyHoldersAndAnnualLifeFundsTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_TechnicalProvisionsLifeInsuranceTitle" name="TechnicalProvisionsLifeInsuranceTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_TechnicalProvisionsOtherTitle" name="TechnicalProvisionsOtherTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_TechnicalProvisionsProfitSharingAndDiscountsTitle" name="TechnicalProvisionsProfitSharingAndDiscountsTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_TechnicalProvisionsTitle" name="TechnicalProvisionsTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_TechnicalProvisionsUnearnedPremiumsUnexpiredRisksTitle" name="TechnicalProvisionsUnearnedPremiumsUnexpiredRisksTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="bw2-titel9_UnrealisedChangesInValueOfInvestmentsTitle" name="UnrealisedChangesInValueOfInvestmentsTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+</xsd:schema>

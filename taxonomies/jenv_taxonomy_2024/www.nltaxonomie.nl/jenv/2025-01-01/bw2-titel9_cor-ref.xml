@@ -709,22 +709,14 @@
     <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="bw2-titel9_AverageNumberEmployees_loc" xlink:to="bw2-titel9_BUPRK_2015-11-01_3_ref"/>
     <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="bw2-titel9_AverageNumberEmployees_loc" xlink:to="bw2-titel9_bw2-titel9_2023-01-01_382_ref"/>
     <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="bw2-titel9_AverageNumberEmployees_loc" xlink:to="bw2-titel9_bw2-titel9_2023-01-01_396_5_ref"/>
-    <link:loc xlink:type="locator" xlink:href="bw2-titel9_cor.xsd#bw2-titel9_BalanceSheetBeforeAfterAppropriationResults" xlink:label="bw2-titel9_BalanceSheetBeforeAfterAppropriationResults_loc"/>
+    <link:loc xlink:type="locator" xlink:href="bw2-titel9_cor.xsd#bw2-titel9_BalanceSheetBeforeAppropriationResults" xlink:label="bw2-titel9_BalanceSheetBeforeAppropriationResults_loc"/>
     <link:reference xlink:type="resource" xlink:label="bw2-titel9_BMJ_2015-11-01_11_ref" xlink:role="http://www.xbrl.org/2003/role/reference" id="bw2-titel9_BMJ_2015-11-01_11_ref">
       <ref:Article>11</ref:Article>
       <ref:IssueDate>2015-11-01</ref:IssueDate>
       <ref:Name>Besluit modellen jaarrekening</ref:Name>
     </link:reference>
-    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="bw2-titel9_BalanceSheetBeforeAfterAppropriationResults_loc" xlink:to="bw2-titel9_BMJ_2015-11-01_11_ref"/>
-    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="bw2-titel9_BalanceSheetBeforeAfterAppropriationResults_loc" xlink:to="bw2-titel9_bw2-titel9_2023-01-01_362_2_ref"/>
-    <link:loc xlink:type="locator" xlink:href="bw2-titel9_cor.xsd#bw2-titel9_BasisOfPreparation" xlink:label="bw2-titel9_BasisOfPreparation_loc"/>
-    <link:reference xlink:type="resource" xlink:label="bw2-titel9_bw2-titel9_2023-01-01_396_6_ref" xlink:role="http://www.xbrl.org/2003/role/reference" id="bw2-titel9_bw2-titel9_2023-01-01_396_6_ref">
-      <ref:Article>396</ref:Article>
-      <ref:IssueDate>2023-01-01</ref:IssueDate>
-      <ref:Name>Burgerlijk wetboek boek 2</ref:Name>
-      <ref:Paragraph>6</ref:Paragraph>
-    </link:reference>
-    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="bw2-titel9_BasisOfPreparation_loc" xlink:to="bw2-titel9_bw2-titel9_2023-01-01_396_6_ref"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="bw2-titel9_BalanceSheetBeforeAppropriationResults_loc" xlink:to="bw2-titel9_BMJ_2015-11-01_11_ref"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="bw2-titel9_BalanceSheetBeforeAppropriationResults_loc" xlink:to="bw2-titel9_bw2-titel9_2023-01-01_362_2_ref"/>
     <link:loc xlink:type="locator" xlink:href="bw2-titel9_cor.xsd#bw2-titel9_BenefitsDisclosure" xlink:label="bw2-titel9_BenefitsDisclosure_loc"/>
     <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="bw2-titel9_BenefitsDisclosure_loc" xlink:to="bw2-titel9_bw2-titel9_2023-01-01_362_3_ref"/>
     <link:loc xlink:type="locator" xlink:href="bw2-titel9_cor.xsd#bw2-titel9_BenefitsForOwnAccountDisclosure" xlink:label="bw2-titel9_BenefitsForOwnAccountDisclosure_loc"/>
@@ -2234,10 +2226,6 @@
     <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="bw2-titel9_DirectorSignedStatus_loc" xlink:to="bw2-titel9_BMJ_2015-11-01_15_ref"/>
     <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="bw2-titel9_DirectorSignedStatus_loc" xlink:to="bw2-titel9_bw2-titel9_2023-01-01_101_2_ref"/>
     <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="bw2-titel9_DirectorSignedStatus_loc" xlink:to="bw2-titel9_bw2-titel9_2023-01-01_210_2_ref"/>
-    <link:loc xlink:type="locator" xlink:href="bw2-titel9_cor.xsd#bw2-titel9_DirectorType" xlink:label="bw2-titel9_DirectorType_loc"/>
-    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="bw2-titel9_DirectorType_loc" xlink:to="bw2-titel9_BMJ_2015-11-01_15_ref"/>
-    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="bw2-titel9_DirectorType_loc" xlink:to="bw2-titel9_bw2-titel9_2023-01-01_101_2_ref"/>
-    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="bw2-titel9_DirectorType_loc" xlink:to="bw2-titel9_bw2-titel9_2023-01-01_210_2_ref"/>
     <link:loc xlink:type="locator" xlink:href="bw2-titel9_cor.xsd#bw2-titel9_Discounts" xlink:label="bw2-titel9_Discounts_loc"/>
     <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="bw2-titel9_Discounts_loc" xlink:to="bw2-titel9_bw2-titel9_2023-01-01_440_ref"/>
     <link:loc xlink:type="locator" xlink:href="bw2-titel9_cor.xsd#bw2-titel9_DividendPayableHoldersPreferredSharesPolicy" xlink:label="bw2-titel9_DividendPayableHoldersPreferredSharesPolicy_loc"/>
@@ -7190,8 +7178,6 @@
     <link:loc xlink:type="locator" xlink:href="bw2-titel9_cor.xsd#bw2-titel9_ChangesValueFinancialAssetsSecuritiesMember" xlink:label="bw2-titel9_ChangesValueFinancialAssetsSecuritiesMember_loc"/>
     <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="bw2-titel9_ChangesValueFinancialAssetsSecuritiesMember_loc" xlink:to="bw2-titel9_bw2-titel9_2023-01-01_377_3_N_ref"/>
     <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="bw2-titel9_ChangesValueFinancialAssetsSecuritiesMember_loc" xlink:to="bw2-titel9_bw2-titel9_2023-01-01_377_4_J_ref"/>
-    <link:loc xlink:type="locator" xlink:href="bw2-titel9_cor.xsd#bw2-titel9_CommercialMember" xlink:label="bw2-titel9_CommercialMember_loc"/>
-    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="bw2-titel9_CommercialMember_loc" xlink:to="bw2-titel9_bw2-titel9_2023-01-01_396_6_ref"/>
     <link:loc xlink:type="locator" xlink:href="bw2-titel9_cor.xsd#bw2-titel9_ConsolidatedMember" xlink:label="bw2-titel9_ConsolidatedMember_loc"/>
     <link:reference xlink:type="resource" xlink:label="bw2-titel9_bw2-titel9_2023-01-01_361_1_ref" xlink:role="http://www.xbrl.org/2003/role/reference" id="bw2-titel9_bw2-titel9_2023-01-01_361_1_ref">
       <ref:Article>361</ref:Article>
@@ -7282,8 +7268,6 @@
     <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="bw2-titel9_FinancialInstrumentsCurrentValueMember_loc" xlink:to="bw2-titel9_bw2-titel9_2023-01-01_381b_B_ref"/>
     <link:loc xlink:type="locator" xlink:href="bw2-titel9_cor.xsd#bw2-titel9_FireOtherPropertyLossesMember" xlink:label="bw2-titel9_FireOtherPropertyLossesMember_loc"/>
     <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="bw2-titel9_FireOtherPropertyLossesMember_loc" xlink:to="bw2-titel9_bw2-titel9_2023-01-01_441_ref"/>
-    <link:loc xlink:type="locator" xlink:href="bw2-titel9_cor.xsd#bw2-titel9_FiscalMember" xlink:label="bw2-titel9_FiscalMember_loc"/>
-    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="bw2-titel9_FiscalMember_loc" xlink:to="bw2-titel9_bw2-titel9_2023-01-01_396_6_ref"/>
     <link:loc xlink:type="locator" xlink:href="bw2-titel9_cor.xsd#bw2-titel9_ForeignCurrencyTranslationReserveMember" xlink:label="bw2-titel9_ForeignCurrencyTranslationReserveMember_loc"/>
     <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="bw2-titel9_ForeignCurrencyTranslationReserveMember_loc" xlink:to="bw2-titel9_bw2-titel9_2023-01-01_373_1_D_ref"/>
     <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="bw2-titel9_ForeignCurrencyTranslationReserveMember_loc" xlink:to="bw2-titel9_bw2-titel9_2023-01-01_373_4_ref"/>
@@ -7693,9 +7677,6 @@
     <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="bw2-titel9_StatutoryReservesMember_loc" xlink:to="bw2-titel9_bw2-titel9_2023-01-01_378_1_ref"/>
     <link:loc xlink:type="locator" xlink:href="bw2-titel9_cor.xsd#bw2-titel9_SubordinatedLiabilitiesMember" xlink:label="bw2-titel9_SubordinatedLiabilitiesMember_loc"/>
     <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="bw2-titel9_SubordinatedLiabilitiesMember_loc" xlink:to="bw2-titel9_bw2-titel9_2023-01-01_375_4_ref"/>
-    <link:loc xlink:type="locator" xlink:href="bw2-titel9_cor.xsd#bw2-titel9_SupervisoryDirectorsFormerSupervisoryDirectorsMember" xlink:label="bw2-titel9_SupervisoryDirectorsFormerSupervisoryDirectorsMember_loc"/>
-    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="bw2-titel9_SupervisoryDirectorsFormerSupervisoryDirectorsMember_loc" xlink:to="bw2-titel9_bw2-titel9_2023-01-01_383_1_ref"/>
-    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="bw2-titel9_SupervisoryDirectorsFormerSupervisoryDirectorsMember_loc" xlink:to="bw2-titel9_bw2-titel9_2023-01-01_383_2_ref"/>
     <link:loc xlink:type="locator" xlink:href="bw2-titel9_cor.xsd#bw2-titel9_SupervisoryDirectorsMember" xlink:label="bw2-titel9_SupervisoryDirectorsMember_loc"/>
     <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="bw2-titel9_SupervisoryDirectorsMember_loc" xlink:to="bw2-titel9_bw2-titel9_2023-01-01_383d_1_ref"/>
     <link:loc xlink:type="locator" xlink:href="bw2-titel9_cor.xsd#bw2-titel9_TangibleAssetsOtherMember" xlink:label="bw2-titel9_TangibleAssetsOtherMember_loc"/>
