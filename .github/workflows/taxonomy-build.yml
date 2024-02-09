@@ -60,7 +60,7 @@ jobs:
         with:
           name: taxonomy-packages
           path: |
-            ${{ github.workspace }}/artifacts/rj_taxonomy_2024.zip
+            ${{ github.workspace }}/artifacts/*.zip
             ${{ github.workspace }}/arelle-tax.log
 #          ${{ github.workspace }}/artifacts/rj_taxonomy_2024.zip
 #          ${{ github.workspace }}/artifacts/nen_taxonomy_2024.zip
