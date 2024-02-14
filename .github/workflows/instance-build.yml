@@ -44,4 +44,4 @@ jobs:
         with:
           name: instance(s)
           path: |
-            ${{ github.workspace }}/instances/test.xbrl
+            ${{ github.workspace }}/instances/*.xbrl
