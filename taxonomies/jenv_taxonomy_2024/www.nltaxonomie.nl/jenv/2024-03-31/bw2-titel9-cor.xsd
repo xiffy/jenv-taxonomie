@@ -12,7 +12,7 @@
   <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
   <xsd:import namespace="http://www.xbrl.org/dtr/type/2022-03-31" schemaLocation="https://www.xbrl.org/dtr/type/2022-03-31/types.xsd"/>
   <xsd:import namespace="http://xbrl.org/2020/extensible-enumerations-2.0" schemaLocation="https://www.xbrl.org/2020/extensible-enumerations-2.0.xsd"/>
-<xsd:element name="FinancialStatementsTable" id="bw2-titel9_FinancialStatementsTable" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="duration"/>
+<xsd:element name="FinancialStatementsTypeTable" id="bw2-titel9_FinancialStatementsTypeTable" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="duration"/>
 <xsd:element name="ChamberOfCommerceRegistrationNumber" id="bw2-titel9_ChamberOfCommerceRegistrationNumber" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
 <xsd:element name="LegalEntityName" id="bw2-titel9_LegalEntityName" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
 <xsd:element name="AccommodationCostsAllocatedToInvestmentsInLandAndBuildingsForOwnUse" id="bw2-titel9_AccommodationCostsAllocatedToInvestmentsInLandAndBuildingsForOwnUse" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
