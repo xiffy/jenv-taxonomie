@@ -2586,6 +2586,10 @@
       <ref:Name>Besluit modellen jaarrekening</ref:Name>
     </link:reference>
     <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="bw2-titel9_FinancialReportingPeriodCurrentEndDate_loc" xlink:to="bw2-titel9_BMJ_2015-11-01_3_ref"/>
+    <link:loc xlink:type="locator" xlink:href="bw2-titel9-cor.xsd#bw2-titel9_FinancialReportingPeriodEndDate" xlink:label="bw2-titel9_FinancialReportingPeriodEndDate_loc"/>
+    <link:loc xlink:type="locator" xlink:href="bw2-titel9-cor.xsd#bw2-titel9_FinancialReportingPeriod" xlink:label="bw2-titel9_FinancialReportingPeriod_loc"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="bw2-titel9_FinancialReportingPeriodEndDate_loc" xlink:to="bw2-titel9_BMJ_2015-11-01_3_ref"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="bw2-titel9_FinancialReportingPeriod_loc" xlink:to="bw2-titel9_BMJ_2015-11-01_3_ref"/>
     <link:reference xlink:type="resource" xlink:label="bw2-titel9_bw2-titel9_2023-01-01_363_2_ref" xlink:role="http://www.xbrl.org/2003/role/reference" id="bw2-titel9_bw2-titel9_2023-01-01_363_2_ref">
       <ref:Article>363</ref:Article>
       <ref:IssueDate>2023-01-01</ref:IssueDate>
