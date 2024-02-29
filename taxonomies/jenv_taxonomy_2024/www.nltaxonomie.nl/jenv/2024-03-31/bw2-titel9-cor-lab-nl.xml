@@ -8,6 +8,18 @@
   <link:roleRef roleURI="http://www.xbrl.org/2009/role/negatedTotalLabel" xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedTotalLabel"/>
   <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/element-label" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-label.xsd#element-label"/>
   <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="bw2-titel9-cor.xsd#bw2-titel9_BalanceSheetTitle" xlink:label="bw2-titel9_BalanceSheetTitle_loc"/>
+    <link:label xlink:type="resource" xlink:label="bw2-titel9_BalanceSheetTitle_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl">Balans</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_BalanceSheetTitle_loc" xlink:to="bw2-titel9_BalanceSheetTitle_label_nl"/>
+	<link:loc xlink:type="locator" xlink:href="bw2-titel9-cor.xsd#bw2-titel9_IncomeStatementTitle" xlink:label="bw2-titel9_IncomeStatementTitle_loc"/>
+    <link:label xlink:type="resource" xlink:label="bw2-titel9_IncomeStatementTitle_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl">Winst-en-verliesrekening</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_IncomeStatementTitle_loc" xlink:to="bw2-titel9_IncomeStatementTitle_label_nl"/>
+	<link:loc xlink:type="locator" xlink:href="bw2-titel9-cor.xsd#bw2-titel9_AccountingPrinciplesTitle" xlink:label="bw2-titel9_AccountingPrinciplesTitle_loc"/>
+    <link:label xlink:type="resource" xlink:label="bw2-titel9_AccountingPrinciplesTitle_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl">Grondslagen</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_AccountingPrinciplesTitle_loc" xlink:to="bw2-titel9_AccountingPrinciplesTitle_label_nl"/>	
+	<link:loc xlink:type="locator" xlink:href="bw2-titel9-cor.xsd#bw2-titel9_NotesTitle" xlink:label="bw2-titel9_NotesTitle_loc"/>
+    <link:label xlink:type="resource" xlink:label="bw2-titel9_NotesTitle_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl">Toelichting</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_NotesTitle_loc" xlink:to="bw2-titel9_NotesTitle_label_nl"/>
     <link:loc xlink:type="locator" xlink:href="bw2-titel9-cor.xsd#bw2-titel9_AccommodationCostsAllocatedToInvestmentsInLandAndBuildingsForOwnUse" xlink:label="bw2-titel9_AccommodationCostsAllocatedToInvestmentsInLandAndBuildingsForOwnUse_loc"/>
     <link:label xlink:type="resource" xlink:label="bw2-titel9_AccommodationCostsAllocatedToInvestmentsInLandAndBuildingsForOwnUse_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="bw2-titel9_AccommodationCostsAllocatedToInvestmentsInLandAndBuildingsForOwnUse_label_nl">Huisvestingskosten toegerekend aan beleggingen in terreinen en gebouwen</link:label>
     <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_AccommodationCostsAllocatedToInvestmentsInLandAndBuildingsForOwnUse_loc" xlink:to="bw2-titel9_AccommodationCostsAllocatedToInvestmentsInLandAndBuildingsForOwnUse_label_nl"/>
@@ -11699,5 +11711,5 @@
     <link:loc xlink:type="locator" xlink:href="bw2-titel9-cor.xsd#bw2-titel9_SupervisoryDirectorTypedMember" xlink:label="bw2-titel9_SupervisoryDirectorTypedMember_loc"/>
     <label:label xlink:type="resource" xlink:label="bw2-titel9_SupervisoryDirectorTypedMember_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl" id="bw2-titel9_SupervisoryDirectorTypedMember_label_nl">Commissaris</label:label>
     <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="bw2-titel9_SupervisoryDirectorTypedMember_loc" xlink:to="bw2-titel9_SupervisoryDirectorTypedMember_label_nl"/>
-  </gen:link>
+	</gen:link>
 </link:linkbase>
