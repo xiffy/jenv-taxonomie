@@ -13,14 +13,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - run: mkdir -p build
-      - run: ls -l
-      - run: ls -l taxonomies
-
-      - uses: montudor/action-zip@v1
-        with: # recursive, archive name and path without extension, what to archive
-          args: zip -r build/${{ env.TAX_NAME }} ${{ env.TAX_NAME }}
-          working-directory: taxonomies
+      - run: |
+          mkdir -p build
+      - run: |
+          sudo apt install zip
+      - run: |
+          cd taxonomies; zip -r ../build/${{ env.TAX_NAME }} ${{ env.TAX_NAME }}
 
       - uses: actions/upload-artifact@v4
         id: artifact-upload-step
