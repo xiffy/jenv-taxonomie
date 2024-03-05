@@ -18,7 +18,7 @@ jobs:
       - uses: montudor/action-zip@v1
         with: # recursive, archive name and path without extension, what to archive
           args: zip -r build/${{ env.TAX_NAME }} ${{ env.TAX_NAME }}
-          path: taxonomies
+          working-directory: taxonomies
 
       - uses: actions/upload-artifact@v4
         id: artifact-upload-step
