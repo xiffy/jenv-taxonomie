@@ -1956,7 +1956,7 @@
   <xsd:element name="SupervisoryDirectorTypedMember" id="bw2-titel9_SupervisoryDirectorTypedMember" type="xsd:string" abstract="false" nillable="true"/>
   <xsd:element name="CategoryEmployeesManagerialPositionsTypedMember" id="bw2-titel9_CategoryEmployeesManagerialPositionsTypedMember" type="xsd:string" abstract="false" nillable="true"/>
   <xsd:element name="LegalEntityLegalForm" id="bw2-titel9_LegalEntityLegalForm" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="FinancialReportingPeriodEndDate" id="bw2-titel9_FinancialReportingPeriodEndDate" type="xbrli:dateItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="FinancialReportingPeriodEndDate" id="bw2-titel9_FinancialReportingPeriodEndDate" type="xbrli:dateItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="instant"/>
   <xsd:element name="FinancialReportingPeriod" id="bw2-titel9_FinancialReportingPeriod" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="BalanceSheetTitle" id="bw2-titel9_BalanceSheetTitle" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
   <xsd:element name="IncomeStatementTitle" id="bw2-titel9_IncomeStatementTitle" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
