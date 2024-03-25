@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <xsd:schema targetNamespace="https://www.nltaxonomie.nl/jenv/2024-03-31/bw2-titel9-cor" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:bw2-titel9="https://www.nltaxonomie.nl/jenv/2024-03-31/bw2-titel9-cor" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:dtr="http://www.xbrl.org/dtr/type/2022-03-31" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldt="http://xbrl.org/2005/xbrldt">
   <xsd:annotation>
     <xsd:appinfo>
@@ -15,6 +14,7 @@
   <xsd:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
   <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
   <xsd:import namespace="http://www.xbrl.org/dtr/type/2022-03-31" schemaLocation="https://www.xbrl.org/dtr/type/2022-03-31/types.xsd"/>
+    <xsd:element name="CommitmentsContingenciesNotIncludedInBalanceSheetDisclosure" id="bw2-titel9_CommitmentsContingenciesNotIncludedInBalanceSheetDisclosure" type="dtr:textBlockItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/> 
   <xsd:element name="FinancialStatementsTypeTable" id="bw2-titel9_FinancialStatementsTypeTable" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="ChamberOfCommerceRegistrationNumber" id="bw2-titel9_ChamberOfCommerceRegistrationNumber" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="LegalEntityName" id="bw2-titel9_LegalEntityName" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
@@ -1966,14 +1966,8 @@
   <xsd:element name="AccountingPrinciplesTitle" id="bw2-titel9_AccountingPrinciplesTitle" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
   <xsd:element name="NotesTitle" id="bw2-titel9_NotesTitle" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
   <xsd:element name="SigningManagingSupervisoryDirectorsTitle" id="bw2-titel9_SigningManagingSupervisoryDirectorsTitle" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
-  
    <xsd:element name="GeneralNotesTitle" id="bw2-titel9_GeneralNotesTitle" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
-  
     <xsd:element name="NotesGeneralAccountingPrinciplesTitle" id="bw2-titel9_NotesGeneralAccountingPrinciplesTitle" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
-	
 	<xsd:element name="AccountingPrinciplesAssetsLiabilitiesTitle" id="bw2-titel9_AccountingPrinciplesAssetsLiabilitiesTitle" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
-	
 	<xsd:element name="AccountingPrinciplesResultTitle" id="bw2-titel9_AccountingPrinciplesResultTitle" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
-	
-	
 </xsd:schema>

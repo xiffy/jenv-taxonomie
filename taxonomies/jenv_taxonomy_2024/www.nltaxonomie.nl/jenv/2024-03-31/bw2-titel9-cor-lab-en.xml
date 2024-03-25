@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://www.w3.org/1999/xlink http://www.xbrl.org/2003/xlink-2003-12-31.xsd http://xbrl.org/2008/label http://www.xbrl.org/2008/generic-label.xsd http://xbrl.org/2008/generic http://www.xbrl.org/2008/generic-link.xsd" xmlns:gen="http://xbrl.org/2008/generic" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:label="http://xbrl.org/2008/label" xmlns:xlink="http://www.w3.org/1999/xlink">
   <link:roleRef roleURI="http://www.xbrl.org/2008/role/label" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-label.xsd#standard-label"/>
   <link:roleRef roleURI="http://www.xbrl.org/2008/role/link" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-link.xsd#standard-link-role"/>
@@ -8,9 +7,9 @@
   <link:roleRef roleURI="http://www.xbrl.org/2009/role/negatedTotalLabel" xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedTotalLabel"/>
   <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/element-label" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-label.xsd#element-label"/>
   <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
-  
-  
-  
+   	<link:loc xlink:type="locator" xlink:href="bw2-titel9-cor.xsd#bw2-titel9_CommitmentsContingenciesNotIncludedInBalanceSheetDisclosure" xlink:label="bw2-titel9_CommitmentsContingenciesNotIncludedInBalanceSheetDisclosure_loc"/>
+	<link:label xlink:type="resource" xlink:label="bw2-titel9_CommitmentsContingenciesNotIncludedInBalanceSheetDisclosure_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Assets and liabilities not recognised in balance sheet</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_CommitmentsContingenciesNotIncludedInBalanceSheetDisclosure_loc" xlink:to="bw2-titel9_CommitmentsContingenciesNotIncludedInBalanceSheetDisclosure_label_en"/> 
 <link:loc xlink:type="locator" xlink:href="bw2-titel9-cor.xsd#bw2-titel9_GeneralNotesTitle" xlink:label="bw2-titel9_GeneralNotesTitle_loc"/>
 <link:label xlink:type="resource" xlink:label="bw2-titel9_GeneralNotesTitle_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">General notes</link:label>
 <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_GeneralNotesTitle_loc" xlink:to="bw2-titel9_GeneralNotesTitle_label_en"/>
@@ -24,7 +23,6 @@
 <link:label xlink:type="resource" xlink:label="bw2-titel9_AccountingPrinciplesResultTitle_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">	
 Accounting principles for the determination of the result</link:label>
 <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_AccountingPrinciplesResultTitle_loc" xlink:to="bw2-titel9_AccountingPrinciplesResultTitle_label_en"/>
-  
     <link:loc xlink:type="locator" xlink:href="bw2-titel9-cor.xsd#bw2-titel9_SigningManagingSupervisoryDirectorsTitle" xlink:label="bw2-titel9_SigningManagingSupervisoryDirectorsTitle_loc"/>
     <link:label xlink:type="resource" xlink:label="bw2-titel9_SigningManagingSupervisoryDirectorsTitle_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Signing of the financial statements by managing and supervisory director</link:label>
     <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_SigningManagingSupervisoryDirectorsTitle_loc" xlink:to="bw2-titel9_SigningManagingSupervisoryDirectorsTitle_label_en"/>
