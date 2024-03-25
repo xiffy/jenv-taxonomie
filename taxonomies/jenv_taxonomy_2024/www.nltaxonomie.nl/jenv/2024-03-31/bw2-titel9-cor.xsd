@@ -1966,4 +1966,14 @@
   <xsd:element name="AccountingPrinciplesTitle" id="bw2-titel9_AccountingPrinciplesTitle" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
   <xsd:element name="NotesTitle" id="bw2-titel9_NotesTitle" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
   <xsd:element name="SigningManagingSupervisoryDirectorsTitle" id="bw2-titel9_SigningManagingSupervisoryDirectorsTitle" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  
+   <xsd:element name="GeneralNotesTitle" id="bw2-titel9_GeneralNotesTitle" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  
+    <xsd:element name="NotesGeneralAccountingPrinciplesTitle" id="bw2-titel9_NotesGeneralAccountingPrinciplesTitle" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+	
+	<xsd:element name="AccountingPrinciplesAssetsLiabilitiesTitle" id="bw2-titel9_AccountingPrinciplesAssetsLiabilitiesTitle" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+	
+	<xsd:element name="AccountingPrinciplesResultTitle" id="bw2-titel9_AccountingPrinciplesResultTitle" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+	
+	
 </xsd:schema>

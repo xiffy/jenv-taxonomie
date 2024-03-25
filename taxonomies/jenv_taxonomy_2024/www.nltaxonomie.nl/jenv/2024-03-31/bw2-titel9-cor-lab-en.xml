@@ -8,6 +8,23 @@
   <link:roleRef roleURI="http://www.xbrl.org/2009/role/negatedTotalLabel" xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedTotalLabel"/>
   <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/element-label" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-label.xsd#element-label"/>
   <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+  
+  
+  
+<link:loc xlink:type="locator" xlink:href="bw2-titel9-cor.xsd#bw2-titel9_GeneralNotesTitle" xlink:label="bw2-titel9_GeneralNotesTitle_loc"/>
+<link:label xlink:type="resource" xlink:label="bw2-titel9_GeneralNotesTitle_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">General notes</link:label>
+<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_GeneralNotesTitle_loc" xlink:to="bw2-titel9_GeneralNotesTitle_label_en"/>
+<link:loc xlink:type="locator" xlink:href="bw2-titel9-cor.xsd#bw2-titel9_NotesGeneralAccountingPrinciplesTitle" xlink:label="bw2-titel9_NotesGeneralAccountingPrinciplesTitle_loc"/>
+<link:label xlink:type="resource" xlink:label="bw2-titel9_NotesGeneralAccountingPrinciplesTitle_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">General accounting principles</link:label>
+<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_NotesGeneralAccountingPrinciplesTitle_loc" xlink:to="bw2-titel9_NotesGeneralAccountingPrinciplesTitle_label_en"/>
+<link:loc xlink:type="locator" xlink:href="bw2-titel9-cor.xsd#bw2-titel9_AccountingPrinciplesAssetsLiabilitiesTitle" xlink:label="bw2-titel9_AccountingPrinciplesAssetsLiabilitiesTitle_loc"/>
+<link:label xlink:type="resource" xlink:label="bw2-titel9_AccountingPrinciplesAssetsLiabilitiesTitle_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Accounting principles applied to the valuation of assets and liabilities</link:label>
+<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_AccountingPrinciplesAssetsLiabilitiesTitle_loc" xlink:to="bw2-titel9_AccountingPrinciplesAssetsLiabilitiesTitle_label_en"/>
+<link:loc xlink:type="locator" xlink:href="bw2-titel9-cor.xsd#bw2-titel9_AccountingPrinciplesResultTitle" xlink:label="bw2-titel9_AccountingPrinciplesResultTitle_loc"/>
+<link:label xlink:type="resource" xlink:label="bw2-titel9_AccountingPrinciplesResultTitle_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">	
+Accounting principles for the determination of the result</link:label>
+<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_AccountingPrinciplesResultTitle_loc" xlink:to="bw2-titel9_AccountingPrinciplesResultTitle_label_en"/>
+  
     <link:loc xlink:type="locator" xlink:href="bw2-titel9-cor.xsd#bw2-titel9_SigningManagingSupervisoryDirectorsTitle" xlink:label="bw2-titel9_SigningManagingSupervisoryDirectorsTitle_loc"/>
     <link:label xlink:type="resource" xlink:label="bw2-titel9_SigningManagingSupervisoryDirectorsTitle_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Signing of the financial statements by managing and supervisory director</link:label>
     <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_SigningManagingSupervisoryDirectorsTitle_loc" xlink:to="bw2-titel9_SigningManagingSupervisoryDirectorsTitle_label_en"/>
