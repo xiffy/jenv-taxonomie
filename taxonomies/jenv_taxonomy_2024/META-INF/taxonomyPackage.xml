@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tp:taxonomyPackage xml:lang="en" xmlns:tp="http://xbrl.org/2016/taxonomy-package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xbrl.org/2016/taxonomy-package http://www.xbrl.org/2016/taxonomy-package.xsd">
-	<tp:identifier>https://www.nltaxonomie.nl/jenv/2025-01-01</tp:identifier>
-	<tp:name>JenV Taxonomy 2024</tp:name>
-	<tp:description></tp:description>
-	<tp:version>0.1.0</tp:version>
+<tp:taxonomyPackage xml:lang="nl" xmlns:tp="http://xbrl.org/2016/taxonomy-package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xbrl.org/2016/taxonomy-package http://www.xbrl.org/2016/taxonomy-package.xsd">
+	<tp:identifier>https://www.nltaxonomie.nl/jenv/2024-03-31</tp:identifier>
+	<tp:name>JenV taxonomie versie 31 maart 2024</tp:name>
+	<tp:description>XBRL taxonomie van Titel 9 Burgerlijk Wetboek Boek 2.</tp:description>
+	<tp:version>31 maart 2024 (testversie)</tp:version>
 	<tp:publisher>Ministerie van Justitie en Veiligheid</tp:publisher>
 	<tp:publisherURL>https://www.nltaxonomie.nl/jenv</tp:publisherURL>
 	<tp:publisherCountry>NL</tp:publisherCountry>
-	<tp:publicationDate>2025-01-01</tp:publicationDate>
+	<tp:publicationDate>2024-03-31</tp:publicationDate>
 	<tp:entryPoints>
 		<tp:entryPoint>
-			<tp:name>JenV BW2 Core</tp:name>
-			<tp:description></tp:description>
-			<tp:entryPointDocument href="https://www.nltaxonomie.nl/jenv/2025-01-01/bw2-titel9_cor.xsd" />
+			<tp:name>Titel 9 Burgerlijk Wetboek Boek 2 - core</tp:name>
+			<tp:description>Core schema van Titel 9 Burgerlijk Wetboek Boek 2</tp:description>
+			<tp:entryPointDocument href="https://www.nltaxonomie.nl/jenv/2024-03-31/bw2-titel9-cor.xsd" />
 		</tp:entryPoint>
     <tp:entryPoint>
-			<tp:name>JenV BW2 Entrypoint</tp:name>
-			<tp:description></tp:description>
-			<tp:entryPointDocument href="https://www.nltaxonomie.nl/jenv/2025-01-01/bw2-titel9_entrypoint.xsd" />
+			<tp:name>Titel 9 Burgerlijk Wetboek Boek 2 - all</tp:name>
+			<tp:description>All schema van Titel 9 Burgerlijk Wetboek Boek 2</tp:description>
+			<tp:entryPointDocument href="https://www.nltaxonomie.nl/jenv/2024-03-31/bw2-titel9-all.xsd" />
 		</tp:entryPoint>
 	</tp:entryPoints>
 </tp:taxonomyPackage>
