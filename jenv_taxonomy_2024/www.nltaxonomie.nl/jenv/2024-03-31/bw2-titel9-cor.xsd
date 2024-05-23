@@ -1978,4 +1978,5 @@
   <xsd:element name="AccountingPrinciplesResultTitle" id="bw2-titel9_AccountingPrinciplesResultTitle" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="RevaluationReserveStatementOfChangesTable" id="bw2-titel9_RevaluationReserveStatementOfChangesTable" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="EquityStatementOfChangesTable" id="bw2-titel9_EquityStatementOfChangesTable" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="StatementOfComprehensiveIncomeTitle" id="bw2-titel9_StatementOfComprehensiveIncomeTitle" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
 </xsd:schema>

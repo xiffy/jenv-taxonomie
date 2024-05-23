@@ -34,6 +34,11 @@ Grondslagen voor de bepaling van het resultaat</link:label>
     <link:loc xlink:type="locator" xlink:href="bw2-titel9-cor.xsd#bw2-titel9_IncomeStatementTitle" xlink:label="bw2-titel9_IncomeStatementTitle_loc"/>
     <link:label xlink:type="resource" xlink:label="bw2-titel9_IncomeStatementTitle_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl">Winst-en-verliesrekening</link:label>
     <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_IncomeStatementTitle_loc" xlink:to="bw2-titel9_IncomeStatementTitle_label_nl"/>
+	
+	<link:loc xlink:type="locator" xlink:href="bw2-titel9-cor.xsd#bw2-titel9_StatementOfComprehensiveIncomeTitle" xlink:label="bw2-titel9_StatementOfComprehensiveIncomeTitle_loc"/>
+    <link:label xlink:type="resource" xlink:label="bw2-titel9_StatementOfComprehensiveIncomeTitle_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl">Overzicht van het totaalresultaat</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_StatementOfComprehensiveIncomeTitle_loc" xlink:to="bw2-titel9_StatementOfComprehensiveIncomeTitle_label_nl"/>
+	
     <link:loc xlink:type="locator" xlink:href="bw2-titel9-cor.xsd#bw2-titel9_AccountingPrinciplesTitle" xlink:label="bw2-titel9_AccountingPrinciplesTitle_loc"/>
     <link:label xlink:type="resource" xlink:label="bw2-titel9_AccountingPrinciplesTitle_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl">Grondslagen</link:label>
     <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_AccountingPrinciplesTitle_loc" xlink:to="bw2-titel9_AccountingPrinciplesTitle_label_nl"/>
