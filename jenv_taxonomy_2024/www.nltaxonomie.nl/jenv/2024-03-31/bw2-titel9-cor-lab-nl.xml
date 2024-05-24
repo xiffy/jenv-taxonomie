@@ -11691,14 +11691,8 @@ Grondslagen voor de bepaling van het resultaat</link:label>
     <link:loc xlink:type="locator" xlink:href="bw2-titel9-cor.xsd#bw2-titel9_EquityStatementOfChangesTable" xlink:label="bw2-titel9_EquityStatementOfChangesTable_loc"/>
     <link:label xlink:type="resource" xlink:label="bw2-titel9_EquityStatementOfChangesTable_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl">Eigen vermogen: Mutatieoverzicht [tabel]</link:label>
     <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_EquityStatementOfChangesTable_loc" xlink:to="bw2-titel9_EquityStatementOfChangesTable_label_nl"/>
-	<link:loc xlink:type="locator" xlink:href="bw2-titel9-cor.xsd#bw2-titel9_ClassesOfLegalReservesAxis" xlink:label="bw2-titel9_ClassesOfLegalReservesAxis_loc"/>
-    <link:label xlink:type="resource" xlink:label="bw2-titel9_ClassesOfLegalReservesAxis_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="bw2-titel9_ClassesOfLegalReservesAxis_label_nl">Categorieën van andere wettelijke reserves</link:label>
-    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_ClassesOfLegalReservesAxis_loc" xlink:to="bw2-titel9_ClassesOfLegalReservesAxis_label_nl"/>
-	
 	<link:loc xlink:type="locator" xlink:href="bw2-titel9-cor.xsd#bw2-titel9_ChangesInEquityTitle" xlink:label="bw2-titel9_ChangesInEquityTitle_loc"/>
     <link:label xlink:type="resource" xlink:label="bw2-titel9_ChangesInEquityTitle_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl">Verandering in eigen vermogen</link:label>
     <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_ChangesInEquityTitle_loc" xlink:to="bw2-titel9_ChangesInEquityTitle_label_nl"/>
-	
-
   </link:labelLink>
 </link:linkbase>

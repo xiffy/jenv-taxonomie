@@ -1980,6 +1980,4 @@
   
  <xsd:element name="ChangesInEquityTitle" id="bw2-titel9_ChangesInEquityTitle" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="StatementOfComprehensiveIncomeTitle" id="bw2-titel9_StatementOfComprehensiveIncomeTitle" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="ClassesOfLegalReservesAxis" id="bw2-titel9_ClassesOfLegalReservesAxis" type="xbrli:stringItemType" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="true" xbrli:periodType="duration"/>
-
 </xsd:schema>

@@ -8385,15 +8385,9 @@ Accounting principles for the determination of the result</link:label>
     <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_FinancialInstrumentsAndRiskManagementTitle_loc" xlink:to="bw2-titel9_FinancialInstrumentsAndRiskManagementTitle_label_en"/>
     <link:loc xlink:type="locator" xlink:href="bw2-titel9-cor.xsd#bw2-titel9_EquityStatementOfChangesTable" xlink:label="bw2-titel9_EquityStatementOfChangesTable_loc"/>
     <link:label xlink:type="resource" xlink:label="bw2-titel9_EquityStatementOfChangesTable_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Equity: Statement of changes [table]</link:label>
-    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_EquityStatementOfChangesTable_loc" xlink:to="bw2-titel9_EquityStatementOfChangesTable_label_en"/>
-	<link:loc xlink:type="locator" xlink:href="bw2-titel9-cor.xsd#bw2-titel9_ClassesOfLegalReservesAxis" xlink:label="bw2-titel9_ClassesOfLegalReservesAxis_loc"/>
-    <link:label xlink:type="resource" xlink:label="bw2-titel9_ClassesOfLegalReservesAxis_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="bw2-titel9_ClassesOfLegalReservesAxis_label_en">Classes of other legal reserves</link:label>
-    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_ClassesOfLegalReservesAxis_loc" xlink:to="bw2-titel9_ClassesOfLegalReservesAxis_label_en"/>
-	
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_EquityStatementOfChangesTable_loc" xlink:to="bw2-titel9_EquityStatementOfChangesTable_label_en"/>	
 	<link:loc xlink:type="locator" xlink:href="bw2-titel9-cor.xsd#bw2-titel9_ChangesInEquityTitle" xlink:label="bw2-titel9_ChangesInEquityTitle_loc"/>
     <link:label xlink:type="resource" xlink:label="bw2-titel9_ChangesInEquityTitle_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Changes in equity</link:label>
     <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_ChangesInEquityTitle_loc" xlink:to="bw2-titel9_ChangesInEquityTitle_label_en"/>
-	
-	
   </link:labelLink>
 </link:linkbase>
