@@ -11698,5 +11698,9 @@
     <link:loc xlink:type="locator" xlink:href="bw2-titel9-cor.xsd#bw2-titel9_SupervisoryDirectorsMember" xlink:label="bw2-titel9_SupervisoryDirectorsMember_loc"/>
     <link:label xlink:type="resource" xlink:label="bw2-titel9_SupervisoryDirectorsMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="bw2-titel9_SupervisoryDirectorsMember_label_nl">Commissarissen</link:label>
     <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_SupervisoryDirectorsMember_loc" xlink:to="bw2-titel9_SupervisoryDirectorsMember_label_nl"/>
+	<link:label xlink:type="resource" xlink:label="bw2-titel9_LegalEntityName_documentation_nl" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="nl" id="bw2-titel9_LegalEntityName_documentation_nl">De statutaire naam van de rechtspersoon.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_LegalEntityName_loc" xlink:to="bw2-titel9_LegalEntityName_documentation_nl"/>
+	<link:label xlink:type="resource" xlink:label="bw2-titel9_LegalEntityName_terseLabel_nl" xlink:role="http://www.xbrl.org/2003/role/terseLabel" xml:lang="nl" id="bw2-titel9_LegalEntityName_terseLabel_nl">Naam</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_LegalEntityName_loc" xlink:to="bw2-titel9_LegalEntityName_terseLabel_nl"/>
   </link:labelLink>
 </link:linkbase>

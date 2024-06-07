@@ -8343,5 +8343,15 @@
     <link:loc xlink:type="locator" xlink:href="bw2-titel9-cor.xsd#bw2-titel9_StatementOfComprehensiveIncomeTitle" xlink:label="bw2-titel9_StatementOfComprehensiveIncomeTitle_loc"/>
     <link:label xlink:type="resource" xlink:label="bw2-titel9_StatementOfComprehensiveIncomeTitle_label_de" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="de" id="bw2-titel9_StatementOfComprehensiveIncomeTitle_label_de">Gesamtergebnisrechnung</link:label>
     <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_StatementOfComprehensiveIncomeTitle_loc" xlink:to="bw2-titel9_StatementOfComprehensiveIncomeTitle_label_de"/>
+    <link:loc xlink:type="locator" xlink:href="bw2-titel9-cor.xsd#bw2-titel9_ChamberOfCommerceRegistrationNumber" xlink:label="bw2-titel9_ChamberOfCommerceRegistrationNumber_loc"/>
+    <link:label xlink:type="resource" xlink:label="bw2-titel9_ChamberOfCommerceRegistrationNumber_label_de" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="de" id="bw2-titel9_ChamberOfCommerceRegistrationNumber_label_de">Registrierungsnummer bei der Handelskammer</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_ChamberOfCommerceRegistrationNumber_loc" xlink:to="bw2-titel9_ChamberOfCommerceRegistrationNumber_label_de"/>
+    <link:loc xlink:type="locator" xlink:href="bw2-titel9-cor.xsd#bw2-titel9_LegalEntityName" xlink:label="bw2-titel9_LegalEntityName_loc"/>
+    <link:label xlink:type="resource" xlink:label="bw2-titel9_LegalEntityName_label_de" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="de" id="bw2-titel9_LegalEntityName_label_de">Name der Körperschaft</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_LegalEntityName_loc" xlink:to="bw2-titel9_LegalEntityName_label_de"/>
+	<link:label xlink:type="resource" xlink:label="bw2-titel9_LegalEntityName_terseLabel_de" xlink:role="http://www.xbrl.org/2003/role/terseLabel" xml:lang="de" id="bw2-titel9_LegalEntityName_terseLabel_de">Name</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_LegalEntityName_loc" xlink:to="bw2-titel9_LegalEntityName_terseLabel_de"/>
+	<link:label xlink:type="resource" xlink:label="bw2-titel9_ChamberOfCommerceRegistrationNumber_terseLabel_de" xlink:role="http://www.xbrl.org/2003/role/terseLabel" xml:lang="de" id="bw2-titel9_ChamberOfCommerceRegistrationNumber_terseLabel_de">Handelsregisternummer</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_ChamberOfCommerceRegistrationNumber_loc" xlink:to="bw2-titel9_ChamberOfCommerceRegistrationNumber_terseLabel_de"/>
   </link:labelLink>
 </link:linkbase>
