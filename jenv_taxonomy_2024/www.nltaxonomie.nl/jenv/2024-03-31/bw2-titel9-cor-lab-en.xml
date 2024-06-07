@@ -8388,5 +8388,11 @@
 	<link:loc xlink:type="locator" xlink:href="bw2-titel9-cor.xsd#bw2-titel9_ChangesInEquityTitle" xlink:label="bw2-titel9_ChangesInEquityTitle_loc"/>
     <link:label xlink:type="resource" xlink:label="bw2-titel9_ChangesInEquityTitle_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Changes in equity</link:label>
     <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_ChangesInEquityTitle_loc" xlink:to="bw2-titel9_ChangesInEquityTitle_label_en"/>
+	<link:loc xlink:type="locator" xlink:href="bw2-titel9-cor.xsd#bw2-titel9_SupervisoryDirectorsFormerSupervisoryDirectorsMember" xlink:label="bw2-titel9_SupervisoryDirectorsFormerSupervisoryDirectorsMember_loc"/>
+    <link:label xlink:type="resource" xlink:label="bw2-titel9_SupervisoryDirectorsFormerSupervisoryDirectorsMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="bw2-titel9_SupervisoryDirectorsFormerSupervisoryDirectorsMember_label_en">Supervisory directors and former supervisory directors</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_SupervisoryDirectorsFormerSupervisoryDirectorsMember_loc" xlink:to="bw2-titel9_SupervisoryDirectorsFormerSupervisoryDirectorsMember_label_en"/>
+    <link:loc xlink:type="locator" xlink:href="bw2-titel9-cor.xsd#bw2-titel9_SupervisoryDirectorsMember" xlink:label="bw2-titel9_SupervisoryDirectorsMember_loc"/>
+    <link:label xlink:type="resource" xlink:label="bw2-titel9_SupervisoryDirectorsMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="bw2-titel9_SupervisoryDirectorsMember_label_en">Supervisory directors</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_SupervisoryDirectorsMember_loc" xlink:to="bw2-titel9_SupervisoryDirectorsMember_label_en"/>
   </link:labelLink>
 </link:linkbase>
