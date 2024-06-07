@@ -20,8 +20,7 @@
     <link:label xlink:type="resource" xlink:label="bw2-titel9_AccountingPrinciplesAssetsLiabilitiesTitle_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Accounting principles applied to the valuation of assets and liabilities</link:label>
     <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_AccountingPrinciplesAssetsLiabilitiesTitle_loc" xlink:to="bw2-titel9_AccountingPrinciplesAssetsLiabilitiesTitle_label_en"/>
     <link:loc xlink:type="locator" xlink:href="bw2-titel9-cor.xsd#bw2-titel9_AccountingPrinciplesResultTitle" xlink:label="bw2-titel9_AccountingPrinciplesResultTitle_loc"/>
-    <link:label xlink:type="resource" xlink:label="bw2-titel9_AccountingPrinciplesResultTitle_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">	
-Accounting principles for the determination of the result</link:label>
+    <link:label xlink:type="resource" xlink:label="bw2-titel9_AccountingPrinciplesResultTitle_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Accounting principles for the determination of the result</link:label>
     <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_AccountingPrinciplesResultTitle_loc" xlink:to="bw2-titel9_AccountingPrinciplesResultTitle_label_en"/>
     <link:loc xlink:type="locator" xlink:href="bw2-titel9-cor.xsd#bw2-titel9_SigningManagingSupervisoryDirectorsTitle" xlink:label="bw2-titel9_SigningManagingSupervisoryDirectorsTitle_loc"/>
     <link:label xlink:type="resource" xlink:label="bw2-titel9_SigningManagingSupervisoryDirectorsTitle_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Signing of the financial statements by managing and supervisory director</link:label>
@@ -41,7 +40,7 @@ Accounting principles for the determination of the result</link:label>
     <link:label xlink:type="resource" xlink:label="bw2-titel9_AccountingPrinciplesTitle_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Accounting principles</link:label>
     <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_AccountingPrinciplesTitle_loc" xlink:to="bw2-titel9_AccountingPrinciplesTitle_label_en"/>
     <link:loc xlink:type="locator" xlink:href="bw2-titel9-cor.xsd#bw2-titel9_NotesTitle" xlink:label="bw2-titel9_NotesTitle_loc"/>
-    <link:label xlink:type="resource" xlink:label="bw2-titel9_NotesTitle_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Notes</link:label>
+    <link:label xlink:type="resource" xlink:label="bw2-titel9_NotesTitle_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Notes to the financial statements</link:label>
     <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_NotesTitle_loc" xlink:to="bw2-titel9_NotesTitle_label_en"/>
     <link:loc xlink:type="locator" xlink:href="bw2-titel9-cor.xsd#bw2-titel9_AccommodationCostsAllocatedToInvestmentsInLandAndBuildingsForOwnUse" xlink:label="bw2-titel9_AccommodationCostsAllocatedToInvestmentsInLandAndBuildingsForOwnUse_loc"/>
     <link:label xlink:type="resource" xlink:label="bw2-titel9_AccommodationCostsAllocatedToInvestmentsInLandAndBuildingsForOwnUse_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="bw2-titel9_AccommodationCostsAllocatedToInvestmentsInLandAndBuildingsForOwnUse_label_en">Accommodation costs allocated to investments in land and buildings for own use</link:label>
